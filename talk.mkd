@@ -45,10 +45,99 @@ _"The complexity of software is an essential property, not an accidental one."_.
 ---
 
 layout: false
+class: split-50-50
 
-## Handling Software Complexity
+## Modularity: do one thing, do it well
 
-This should introduce modular programming and APIs
+.column[
+### Coupling
+- Strong
+<p style="text-align:center;"><img src="images/strong-coupling.svg" style="width: 45%"></p>
+- .red[Loose]
+<p style="text-align:center;"><img src="images/loose-coupling.svg" style="width: 45%"></p>
+]
+.column[
+### Cohesion
+- Low
+<p style="text-align:center;"><img src="images/low-cohesion.svg" style="width: 15%"></p>
+- .red[High]
+<p style="text-align:center;"><img src="images/high-cohesion.svg" style="width: 10%"></p>
+]
+<p style="clear: both;">
+
+.footnote-cite[Reproduced, with modifications, from [Library design the hard way](http://cicero.xyz/v2/remark/github/bast/talk-library-design/master/talk.mkd/#1) ]
+
+???
+
+- Coupling
+    - Assemble/deassemble/reassemble
+    - Reason about/understand the code
+
+- Low cohesion: difficult to maintain, test, reuse, or even understand
+    - Non-cohesive code has unnecessary dependencies
+    - Swiss army knife modules
+
+- High cohesion: associated with robustness, reliability, reusability, and understandability
+    - Do one thing only and do it well
+    - API of cohesive code changes less over time
+    - Power of the Unix command line is a set of highly cohesive tools
+    - Microservices
+
+---
+
+layout: false
+class: split-50-50
+
+## Application Programming Interfaces to the Rescue
+
+From [Wikipedia](https://en.wikipedia.org/wiki/Application_programming_interface):
+_In computer programming, an __application programming interface__ (__API__) is
+a set of subroutine definitions, protocols, and tools for building software and
+applications._
+
+.column[
+<p style="text-align:left;"><img src="images/hypnotoad-api.gif" style="width: 90%;"/></p>
+<p style="clear: both;">
+]
+.column[
+* __Encapsulation__ decide what others should know
+* __Development history__ know your past
+* __Documentation__ let others know what you can do
+* __Versioning__ where are we at?
+* __Testing__ did you mess up?
+* __Building__ can it stand on its own feet?
+* __Deploying__ get it out in the open!
+]
+
+???
+
+### Encapsulation
+
+- Hide internals by language or by convention
+- Interface exposed in a separate file
+- Expose the **what**, hide the **how**
+
+### Development history
+
+- Decouple the development history
+- Each unit should have its own Git history/repository
+
+### Documentation
+
+- Separate the **what it can do** from **how is it implemented**
+- Documented **application programming interface** (API)
+- Versioned API ([semantic](http://semver.org) or [sentimental](http://sentimentalversioning.org)
+  or [romantic](https://github.com/jashkenas/backbone/issues/2888#issuecomment-29076249) versioning)
+
+### Testing
+
+- Sharpens interfaces
+- Exposes coupling and cohesion
+
+### Building and deploying
+
+- Prerequisite for testable on its own
+- Suitable distribution mechanisms
 
 ---
 
@@ -70,38 +159,8 @@ This should introduce modular programming and APIs
     - Refactor
     - Optimize
 
-.footnote-cite[Slide taken from [Complexity in software development by Jonas Juselius](https://github.com/scisoft/complexity)]
+.footnote-cite[Reproduced from [Complexity in software development by Jonas Juselius](https://github.com/scisoft/complexity)]
 
----
-
-## Example: pure vs. stateful
-
-### a) pure
-
-```python
-# function which computes the body mass index
-def get_bmi(mass_kg, height_m):
-    return mass_kg/(height_m**2)
-
-# compute the body mass index
-bmi = get_bmi(mass_kg=90.0, height_m=1.91))
-```
-
-### b) stateful
-
-```python
-mass_kg = 90.0
-height_m = 1.91
-bmi = 0.0
-
-# function which computes the body mass index
-def get_bmi():
-    global bmi
-    bmi = mass_kg/(height_m**2)
-
-# compute the body mass index
-get_bmi()
-```
 ---
 
 ## Composition
@@ -115,48 +174,6 @@ get_bmi()
 
 
 .footnote-cite[Slide taken from [Complexity in software development by Jonas Juselius](https://github.com/scisoft/complexity)]
-
----
-layout: false
-class: split-50-50
-
-## Prefer loose coupling and high cohesion
-
-.column[
-Strong coupling
-
-![](images/strong-coupling.svg)
-
-Low cohesion
-
-![](images/low-cohesion.svg)
-]
-.column[
-Loose coupling
-
-![](images/loose-coupling.svg)
-
-High cohesion
-
-![](images/high-cohesion.svg)
-]
-
-???
-
-Loose coupling:
-
-- Easier to reassemble
-- Easier to understand
-
-- Low cohesion: difficult to maintain, test, reuse, or even understand
-    - Non-cohesive code introduces unnecessary dependencies
-    - Swiss army knife modules
-
-- High cohesion: robust, reliable, reusable, understandable
-    - **Do one thing only and do it well**
-    - API of cohesive code changes less over time
-    - Power of the Unix command line is a set of highly cohesive tools
-    - Microservices
 
 ---
 
@@ -198,12 +215,133 @@ Loose coupling:
 
 ---
 
+layout: false
+class: split-50-50
+
 ## XCFun: Arbitrary Order Derivatives of XC Functionals.red[<sup>2</sup>]
+
+Arbitrary order derivatives of XC functionals
+
+.column[
+<p style="text-align:left;"><img src="images/pcm_openrsp.png" style="width: 70%"></p>
+<p style="clear: both;">
+]
+.column[
+XCFun uses **forward-mode AD**:
+
+- Code on GitHub: [dftlibs/xcfun](https://github.com/dftlibs/xcfun)
+- Read the docs! [xcfun.readthedocs.io](https://xcfun.readthedocs.io)
+]
+<p style="clear: both;">
+
+Energy-like contributions
+`$$
+  \epsilon_{\mathrm{xc}}(\mathbf{r}) = \epsilon_{\mathrm{xc}}(n(\mathbf{r}), \nabla n(\mathbf{r})\cdot \nabla n(\mathbf{r})) 
+             = \epsilon_{\mathrm{xc}}(n(\mathbf{r}), Z(\mathbf{r}))
+$$`
+
+Fock-like contributions
+`$$
+  f_{\mathrm{xc};\kappa\lambda}(\mathbf{r}) = \textcolor{red}{u(\mathbf{r})}\Omega_{\kappa\lambda}(\mathbf{r}) + 
+      2\textcolor{blue}{\mathbf{v}(\mathbf{r})}\cdot\nabla\Omega_{\kappa\lambda}(\mathbf{r})
+$$`
 
 .footnote-cite[.red[<sup>2</sup>] Ekström, U.; Visscher, L.; Bast, R.; Thorvaldsen, A. J.; Ruud, K. _J. Chem. Theory Comput._ (2010), __6__, 1971]
 
-- Description of the API
-- Ideas for further development (new Python bindings, better API for compiled languages)
+???
+
+Alternatives:
+- Manual differentiation: tedious and error-prone to high orders
+- Symbolic differentiation: manual verification, numerical stability?
+- Automatic differentiation. Once the function is implemented, we have access to its derivatives.
+  Derivatives can be expected to have the same numerical accuracy and the calculation is stable, if
+  computation of the function itself is stable.
+
+---
+
+## XCFun: Arbitrary Order Derivatives of XC Functionals.red[<sup>*</sup>]
+
+Prefactors $\textcolor{red}{u(\mathbf{r})}$ and $\textcolor{blue}{\mathbf{v}(\mathbf{r})}$
+
+`$$
+  \begin{align}
+  \text{Unperturbed:}\quad & u = d_{1,0},\,\, \mathbf{v} = d_{0, 1}\nabla n \\
+  \text{1st order:}\quad & u^{b} = d^{b}_{1,0},\,\, \mathbf{v}^{b} = d^{b}_{0, 1}\nabla n + d_{0, 1}\nabla n^{b} \\
+  \text{2nd order:}\quad & u^{bc} = d^{bc}_{1,0},\,\, \mathbf{v}^{bc} = d^{bc}_{0, 1}\nabla n + d^{b}_{0, 1}\nabla n^{c} + d^{c}_{0, 1}\nabla n^{b} \\
+  \text{3nd order:}\quad & u^{bcd} = d^{bcd}_{1,0},\,\, \mathbf{v}^{bcd} = d^{bcd}_{0, 1}\nabla n + d^{bc}_{0, 1}\nabla n^{d} + d^{bd}_{0, 1}\nabla n^{c} \\
+   &+d^{cd}_{0, 1}\nabla n^{b} + d^{b}_{0, 1}\nabla n^{cd} + d^{c}_{0, 1}\nabla n^{bd} + d^{d}_{0, 1}\nabla n^{bc}
+  \end{align}
+$$`
+
+`$$
+  \begin{align}
+  d_{i, j} &= \left(\frac{\partial}{\partial n}\right)^{i} \left(\frac{\partial}{\partial Z}\right)^{j} \epsilon_{\mathrm{xc}} \\
+  d^{b_1 b_2\cdots b_N}_{i, j} &= \left( \frac{\mathrm{d}^{N}}{\mathrm{d}\varepsilon_{b_1}\mathrm{d}\varepsilon_{b_2} \cdots \mathrm{d}\varepsilon_{b_N}} \right) d_{i, j} \quad
+  \text{e.g.}\,\, d^{b}_{i, j} = d_{i+1, j} n^b + d_{i,j+1}Z^{0,b}
+  \end{align}
+$$`
+
+.footnote-cite[.red[<sup>*</sup>] Easily extended to spin-polarized DFT and GIAOs.]
+
+---
+
+## Using XCFun.red[<sup>*</sup>]
+
+```cpp
+// Set up functional
+xc_functional fun = xc_new_functional();
+xc_set(fun, "blyp", 0.9);
+xc_set(fun, "pbec", 0.1);
+// Input densities: na, nb, ga_x, ga_y, ga_z, gb_x, gb_y, gb_z
+std::vector<double> d_elements{1, 2.1, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6};
+// Set up evaluation
+xc_user_eval_setup(fun // Functional
+                  , 1  // Derivative order
+                  , 1  // Functional type: GGA
+                  , 2  // Density type: alpha and beta
+                  , 1  // Derivative mode: partial derivatives
+                  , 0  // Laplacian? No
+                  , 0  // Kinetic energy density? No
+                  , 0  // Current density? No
+                  , 1  // Explicit partial derivatives? Yes
+                  );
+// Set up output vector
+int nout = xc_output_length(fun);
+std::vector<double> output(nout);
+xc_eval(fun, d_elements.data(), output.data());
+xc_free_functional(fun);
+```
+
+.footnote-cite[.red[<sup>*</sup>] Full example available on [GitHub](https://github.com/dftlibs/xcfun).]
+
+---
+
+## Using XCFun
+
+1. Get the code on GitHub and build it
+```bash
+git clone git@github.com:dftlibs/xcfun.git
+cd xcfun
+cmake -H. -Bbuild -DXCFun_XC_MAX_ORDER=6 \
+                  -DCMAKE_INSTALL_PREFIX=$HOME/Software/xcfun
+cmake --build build
+cmake --build build --target test
+cmake --build build --target install
+```
+
+2. Build the sample with CMake
+```bash
+cmake -H. -Bbuild_sample -DXCFun_DIR=$HOME/Software/xcfun/share/cmake/XCFun
+```
+3. Results
+```bash
+E = -3.271
+E_na = -1.18765
+E_nb = -1.46682
+E_ga_x = -0.00617626  E_gb_x = -0.00335216
+E_ga_y = -0.00674604  E_gb_y = -0.00358508
+E_ga_z = -0.00731581  E_gb_z = -0.003818
+```
 
 ---
 

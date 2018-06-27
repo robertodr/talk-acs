@@ -220,8 +220,6 @@ class: split-50-50
 
 ## XCFun: Arbitrary Order Derivatives of XC Functionals.red[<sup>2</sup>]
 
-Arbitrary order derivatives of XC functionals
-
 .column[
 <p style="text-align:left;"><img src="images/pcm_openrsp.png" style="width: 70%"></p>
 <p style="clear: both;">
@@ -345,9 +343,108 @@ E_ga_z = -0.00731581  E_gb_z = -0.003818
 
 ---
 
-## libtaylor: Forward-Mode AD with Operator Overloading
+layout: false
+class: split-50-50
 
-Give an example of forward-mode AD (following the example of Ulf in the XCFun paper)
+## libtaylor: Forward-Mode AD with Operator Overloading.red[<sup>*</sup>]
+
+Automatic differentiation
+- Computes a function and its derivatives at given points
+- **Is not** numerical differentiation
+- **Is not** automated symbolic differentiation
+
+.column[
+<p style="text-align:left;"><img src="images/ForwardAccumulationAD.png" style="width: 95%"></p>
+<p style="clear: both;">
+]
+.column[
+<p style="text-align:right;"><img src="images/ReverseAccumulationAD.png" style="width: 50%"></p>
+<p style="clear: both;">
+]
+
+Advantages:
+- Only need to code the function
+- Derivative computation to same numerical accuracy as function
+
+.footnote-cite[.red[<sup>*</sup>] Figures from [Wikipedia article on AD](https://en.wikipedia.org/wiki/Automatic_differentiation).]
+
+---
+
+layout: false
+class: split-50-50
+
+Truncated Taylor expansion: polynomial of degree $D$ in $V$ variables
+`$$
+\mathcal{T}_{V,D}(\mathbf{x}) = \sum_{|\alpha| = 0}^{D} \textcolor{green}{\frac{1}{\alpha!}\left. \partial^{\alpha}f \right|_{\mathbf{x}_0}}(\mathbf{x}-\mathbf{x}_0)^{\alpha}
+$$`
+
+- New _parametrized_ type, holding the Taylor coefficients
+
+```c++
+template <typename T, int V, int D> class taylor;
+```
+- _Overload_ operators and elementary functions
+
+```C++
+template <typename T, int Nvar, int Ndeg>
+static taylor<T, Nvar, Ndeg> pow(const taylor<T, Nvar, Ndeg> & t, int n) {
+  if (n > 0) {
+    taylor<T, Nvar, Ndeg> res = t;
+    while (n-- > 1)
+      res *= t;
+    return res;
+  } else if (n < 0) {
+    return 1 / pow(t, -n);
+  } else {
+    taylor<T, Nvar, Ndeg> res(1);
+    return res;
+  }
+}
+```
+
+???
+
+We replace all "scalars" with finite-order Taylor polynomials.
+
+---
+
+layout: false
+class: split-50-50
+
+## AD in action with libtaylor.red[<sup>*</sup>]
+
+.column[
+`$$
+f(x, y) = \sin(\ln(7x) + \exp(y)) + 9
+$$`
+]
+.column[
+```c++
+template <typename T> 
+T f(const T & x, const T & y) {
+  return sin(log(7 * x) + exp(y)) + 9;
+}
+```
+]
+
+Evaluate gradient and Hessian for $x=\mathrm{e}$ and $y=\pi$
+```c++
+taylor<double, 2, 2> x, y;
+x[0] = M_E;
+x[1] = 1.0;
+y[0] = M_PI;
+y[2] = 1.0;
+taylor<double, 2, 2> second_order = f(x, y);
+second_order.deriv_facs();
+std::cout << "Derivatives (grevlex)\n" << second_order << std::endl;
+```
+
+```bash
+Derivatives (grevlex)
+{9.8156556347, 0.212832130624, 13.3877633973, -0.188683551623, -6.94366424379, -423.389022767}
+```
+
+.footnote-cite[.red[<sup>*</sup>] Code on GitHub [https://github.com/uekstrom/libtaylor](https://github.com/uekstrom/libtaylor)]
 
 ---
 

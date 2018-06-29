@@ -555,26 +555,26 @@ $$`
 
 - Define the .red[reaction potential]
 `$$
- u(\mathbf{r}) = \color{Blue}{\varphi(\mathbf{r})} + \color{Red}{\xi(\mathbf{r})}
- = \int_C \mathop{}\!\mathrm{d}\mathbf{r}^\prime \frac{\color{Blue}{\rho(\mathbf{r}^\prime)}}{|\mathbf{r} - \mathbf{r}^\prime|} +
-  \int_{\partial C} \mathop{}\!\mathrm{d}\mathbf{s} \frac{\color{Red}{\sigma(\mathbf{s})}}{|\mathbf{r} - \mathbf{s}|}
+ u(\mathbf{r}) = \textcolor{Blue}{\varphi(\mathbf{r})} + \textcolor{Red}{\xi(\mathbf{r})}
+ = \int_C \mathop{}\!\mathrm{d}\mathbf{r}^\prime \frac{\textcolor{Blue}{\rho(\mathbf{r}^\prime)}}{|\mathbf{r} - \mathbf{r}^\prime|} +
+  \int_{\partial C} \mathop{}\!\mathrm{d}\mathbf{s} \frac{\textcolor{Red}{\sigma(\mathbf{s})}}{|\mathbf{r} - \mathbf{s}|}
 $$`
 
 - .red[Apparent surface charge (ASC)]
 `$$
-\color{Green}{\mathcal{T}}\color{Red}{\sigma(\mathbf{s})} = -\color{Green}{\mathcal{R}}\color{Blue}{\varphi(\mathbf{s})}
+\textcolor{Green}{\mathcal{T}}\textcolor{Red}{\sigma(\mathbf{s})} = -\textcolor{Green}{\mathcal{R}}\textcolor{Blue}{\varphi(\mathbf{s})}
 $$`
 
 - Green's functions for \\(L_\star\\) define integral operators
 
 `$$
  \begin{align}
-  (\color{Green}{\mathcal{S}_\star} f)(\mathbf{s}) &=
-\int_{\partial C} \mathop{}\!\mathrm{d}\mathbf{s}^\prime \color{Green}{G_\star(\mathbf{s}, \mathbf{s}^\prime)}f(\mathbf{s}^\prime) \\
-  (\color{Green}{\mathcal{D}_\star} f)(\mathbf{s}) &=
-\int_{\partial C} \mathop{}\!\mathrm{d}\mathbf{s}^\prime [\partial_{L_\star}^\prime\color{Green}{G_\star(\mathbf{s}, \mathbf{s}^\prime)}]f(\mathbf{s}^\prime) \\
-  (\color{Green}{\mathcal{D}^\dagger_\star} f)(\mathbf{s}) &=
-\int_{\partial C} \mathop{}\!\mathrm{d}\mathbf{s}^\prime [\partial_{L_\star}\color{Green}{G_\star(\mathbf{s}, \mathbf{s}^\prime)}]f(\mathbf{s}^\prime)
+  (\textcolor{Green}{\mathcal{S}_\star} f)(\mathbf{s}) &=
+\int_{\partial C} \mathop{}\!\mathrm{d}\mathbf{s}^\prime \textcolor{Green}{G_\star(\mathbf{s}, \mathbf{s}^\prime)}f(\mathbf{s}^\prime) \\
+  (\textcolor{Green}{\mathcal{D}_\star} f)(\mathbf{s}) &=
+\int_{\partial C} \mathop{}\!\mathrm{d}\mathbf{s}^\prime [\partial_{L_\star}^\prime\textcolor{Green}{G_\star(\mathbf{s}, \mathbf{s}^\prime)}]f(\mathbf{s}^\prime) \\
+  (\textcolor{Green}{\mathcal{D}^\dagger_\star} f)(\mathbf{s}) &=
+\int_{\partial C} \mathop{}\!\mathrm{d}\mathbf{s}^\prime [\partial_{L_\star}\textcolor{Green}{G_\star(\mathbf{s}, \mathbf{s}^\prime)}]f(\mathbf{s}^\prime)
  \end{align}
 $$`
 
@@ -602,7 +602,7 @@ Solution by a boundary element method (BEM)
 * \\(N_\mathrm{ts}\\) finite elements on the cavity boundary
 * Form boundary integral operators
 `$$
- \color{Green}{\mathbf{T}}\color{Red}{\mathbf{q}} = - \color{Green}{\mathbf{R}}\color{Blue}{\mathbf{v}}
+ \textcolor{Green}{\mathbf{T}}\textcolor{Red}{\mathbf{q}} = - \textcolor{Green}{\mathbf{R}}\textcolor{Blue}{\mathbf{v}}
 $$`
 * Solve linear system
 ]

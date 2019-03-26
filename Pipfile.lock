@@ -3,19 +3,6 @@
         "hash": {
             "sha256": "d0a6225d9b9835a54f5103091e8b8a94f8c00fa1478be42b8a1f70051b771c8d"
         },
-        "host-environment-markers": {
-            "implementation_name": "cpython",
-            "implementation_version": "3.6.5",
-            "os_name": "posix",
-            "platform_machine": "x86_64",
-            "platform_python_implementation": "CPython",
-            "platform_release": "4.14.47",
-            "platform_system": "Linux",
-            "platform_version": "#1-NixOS SMP Wed May 30 20:32:31 UTC 2018",
-            "python_full_version": "3.6.5",
-            "python_version": "3.6",
-            "sys_platform": "linux"
-        },
         "pipfile-spec": 6,
         "requires": {},
         "sources": [
@@ -29,7 +16,7 @@
     "default": {
         "cicero": {
             "git": "https://github.com/bast/cicero.git",
-            "ref": "master"
+            "ref": "a7b0d96b0a3173738a8e66ecd6da651b8940970a"
         }
     },
     "develop": {}

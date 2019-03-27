@@ -2,9 +2,7 @@ name: inverse
 layout: true
 class: center, middle, inverse
 ---
-## The Nordic Quantum Chemistry Library Ecosystem
-
-.subtitle[Extensible, Modular, and Sustainable Development]
+## Reusable Components for Quantum Chemistry Software
 
 .author[Roberto Di Remigio]
 
@@ -12,10 +10,10 @@ class: center, middle, inverse
 
 .institution[Department of Chemistry - Virginia Tech]
 
-.date[29 June 2018, Pasadena]
+.date[1 April 2019, Orlando]
 
 .footnote[[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) licensed.
-Browse slides at [http://tinyurl.com/talk-pyqm](http://tinyurl.com/talk-pyqm)]
+Browse slides at [http://tinyurl.com/talk-acs](http://tinyurl.com/talk-acs)]
 
 ???
 
@@ -234,13 +232,13 @@ XCFun uses **forward-mode AD**:
 
 Energy-like contributions
 `$$
-  \epsilon_{\mathrm{xc}}(\mathbf{r}) = \epsilon_{\mathrm{xc}}(n(\mathbf{r}), \nabla n(\mathbf{r})\cdot \nabla n(\mathbf{r})) 
+  \epsilon_{\mathrm{xc}}(\mathbf{r}) = \epsilon_{\mathrm{xc}}(n(\mathbf{r}), \nabla n(\mathbf{r})\cdot \nabla n(\mathbf{r}))
              = \epsilon_{\mathrm{xc}}(n(\mathbf{r}), Z(\mathbf{r}))
 $$`
 
 Fock-like contributions
 `$$
-  f_{\mathrm{xc};\kappa\lambda}(\mathbf{r}) = \textcolor{red}{u(\mathbf{r})}\Omega_{\kappa\lambda}(\mathbf{r}) + 
+  f_{\mathrm{xc};\kappa\lambda}(\mathbf{r}) = \textcolor{red}{u(\mathbf{r})}\Omega_{\kappa\lambda}(\mathbf{r}) +
       2\textcolor{blue}{\mathbf{v}(\mathbf{r})}\cdot\nabla\Omega_{\kappa\lambda}(\mathbf{r})
 $$`
 
@@ -420,7 +418,7 @@ $$`
 ]
 .column[
 ```c++
-template <typename T> 
+template <typename T>
 T f(const T & x, const T & y) {
   return sin(log(7 * x) + exp(y)) + 9;
 }
@@ -867,11 +865,7 @@ layout: false
 
 __Radovan Bast__ .cite[University of Tromsø]
 
-__Luca Frediani__ .cite[Hylleraas Centre, University of Tromsø]
-
-__T. Daniel Crawford__ .cite[Virginia Tech]
-
-__Lori A. Burns__ .cite[Georgia Tech]
+__Stig Rune Jensen__ .cite[Hylleraas Centre, University of Tromsø]
 
 <p style="text-align:center;"><img src="images/NFR-logo.png" style="width: 80%"></p>
 <p style="clear: both;">
@@ -879,21 +873,11 @@ __Lori A. Burns__ .cite[Georgia Tech]
 ---
 layout: false
 
-## Commercial #1
+## Commercial
 
-Pre-registration [**now open!**](http://istcp-2019.org)
+All examples online [https://github.com/dev-cafe/cmake-cookbook](https://github.com/dev-cafe/cmake-cookbook)
 
-<p style="text-align:center;"><img src="images/istcp-2019.png" style="width: 100%"></p>
-<p style="clear: both;">
-
----
-layout: false
-
-## Commercial #2
-
-Coming soon...
-
-<p style="text-align:center;"><img src="images/cmake-cookbook.png" style="width: 50%"></p>
+<p style="text-align:center;"><img src="images/cmake-cookbook-cover.png" style="width: 50%"></p>
 <p style="clear: both;">
 
 ---
@@ -907,9 +891,9 @@ template: inverse
 
 Slideshow created using [remark] and served using [cicero]
 
-Slides available on [GitHub](https://github.com/robertodr/talk-pyqm)
+Slides available on [GitHub](https://github.com/robertodr/talk-acs)
 
-Browse slides at [http://tinyurl.com/talk-pyqm](http://tinyurl.com/talk-pyqm)
+Browse slides at [http://tinyurl.com/talk-acs](http://tinyurl.com/talk-acs)
 
 [remark]: https://github.com/gnab/remark
 [cicero]: https://github.com/bast/cicero

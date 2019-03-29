@@ -112,8 +112,13 @@ layout: false
 ## The Problem(s) with Input Parsing
 
 - Proliferation of formats
-- Documentation quickly outdated or incomplete
+- Difficult to ensure correctness
+- Error reporting can be confusing
 - Hard to compose
+- Documentation quickly outdated or incomplete
+
+<p style="text-align:center;"><img src="images/confused-dude.gif" style="width: 50%"></p>
+<p style="clear: both;">
 
 ---
 layout: false
@@ -197,6 +202,31 @@ parselglossy doc template.yml --outfile input.rst
 layout: false
 
 ## Conclusions
+
+[github.com/dev-cafe/parselglossy](https://github.com/dev-cafe/parselglossy)
+
+- A library for input parsing
+- Separation of syntax and semantics
+- Allows composable parsers 
+- Automatic generation of documentation
+
+```
+parselglossy --help
+
+Usage: parselglossy [OPTIONS] COMMAND [ARGS]...
+
+  Console script for parselglossy.
+
+Options:
+  --version  Show the version and exit.
+  --help     Show this message and exit.
+
+Commands:
+  doc       Generate documentation from validation template.
+  lex       Run lexer and dump intermediate representation to JSON.
+  parse     Parse input file.
+  validate  Validate intermediate representation into final representation.
+```
 
 ---
 layout: false

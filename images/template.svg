@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="template.svg"
+   inkscape:export-filename="/home/roberto/Documents/talks/talk-acs/images/template.png"
+   inkscape:export-xdpi="300.0101"
+   inkscape:export-ydpi="300.0101">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1993">
+      <stop
+         style="stop-color:#ecbcb7;stop-opacity:1;"
+         offset="0"
+         id="stop1989" />
+      <stop
+         style="stop-color:#ecbcb7;stop-opacity:0;"
+         offset="1"
+         id="stop1991" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1974">
+      <stop
+         style="stop-color:#aeebb6;stop-opacity:1;"
+         offset="0"
+         id="stop1970" />
+      <stop
+         style="stop-color:#aeebb6;stop-opacity:0;"
+         offset="1"
+         id="stop1972" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1107"
+       id="linearGradient2671"
+       x1="514.61554"
+       y1="97.672508"
+       x2="577.88879"
+       y2="-5.9079452"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.80562734,0,0,1.2512501,-384.89515,193.86816)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1107">
+      <stop
+         style="stop-color:#b3b3b3;stop-opacity:1;"
+         offset="0"
+         id="stop1103" />
+      <stop
+         style="stop-color:#b3b3b3;stop-opacity:0;"
+         offset="1"
+         id="stop1105" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1974"
+       id="linearGradient1976"
+       x1="233.14145"
+       y1="288.88208"
+       x2="315.86897"
+       y2="197.17992"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-0.49137659,0,0,0.61332712,262.97564,13.104938)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1993"
+       id="linearGradient1995"
+       x1="209.68973"
+       y1="316.24243"
+       x2="280.39075"
+       y2="213.41572"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-0.51907395,0,0,0.51765547,255.41319,138.41815)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.88"
+     inkscape:cx="31.828168"
+     inkscape:cy="564.51299"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="2560"
+     inkscape:window-height="1376"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-87)">
+    <path
+       style="display:inline;opacity:0.7;fill:url(#linearGradient2671);fill-opacity:1;stroke:none;stroke-width:1.00401258;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       clip-path="none"
+       d="m -12.956588,114.17903 c -6.844088,4.74292 -10.911729,10.70357 -10.911729,17.19377 v 99.34641 c 0,15.54161 23.31163494,28.05347 52.268063,28.05347 28.956442,0 52.268088,-12.51186 52.268088,-28.05347 v -84.77975"
+       id="rect8492-3-2-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssssc" />
+    <text
+       id="text1372-7"
+       y="117.95331"
+       x="47.729149"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87777805px;line-height:1.25;font-family:Hack;-inkscape-font-specification:Hack;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"
+       inkscape:export-filename="/home/bast/tmp/times.png"
+       inkscape:export-xdpi="300.0101"
+       inkscape:export-ydpi="300.0101"><tspan
+         id="tspan1370-5"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46666622px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         y="117.95331"
+         x="47.729149"
+         sodipodi:role="line">template.yml</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.26345968px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.29359969"
+       x="-20.668856"
+       y="132.8669"
+       id="text7053"><tspan
+         sodipodi:role="line"
+         id="tspan7051"
+         x="-20.668856"
+         y="132.8669"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';stroke-width:0.29359969">keywords:</tspan><tspan
+         sodipodi:role="line"
+         x="-20.668856"
+         y="140.81773"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.29359969"
+         id="tspan1741">  - ...</tspan><tspan
+         sodipodi:role="line"
+         x="-20.668856"
+         y="148.76859"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.29359969"
+         id="tspan1743">    ...</tspan><tspan
+         sodipodi:role="line"
+         x="-20.668856"
+         y="156.71942"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.29359969"
+         id="tspan1747">  - ...</tspan><tspan
+         sodipodi:role="line"
+         x="-20.668856"
+         y="164.67027"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.29359969"
+         id="tspan1751">    ...</tspan><tspan
+         sodipodi:role="line"
+         x="-20.668856"
+         y="172.62111"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';stroke-width:0.29359969"
+         id="tspan1753">sections:</tspan><tspan
+         sodipodi:role="line"
+         x="-20.668856"
+         y="180.57195"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.29359969"
+         id="tspan1755">  - ...</tspan><tspan
+         sodipodi:role="line"
+         x="-20.668856"
+         y="188.5228"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';stroke-width:0.29359969"
+         id="tspan1757">    keywords:</tspan><tspan
+         sodipodi:role="line"
+         x="-20.668856"
+         y="196.47363"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.29359969"
+         id="tspan1759">      - ...</tspan><tspan
+         sodipodi:role="line"
+         x="-20.668856"
+         y="204.42448"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.29359969"
+         id="tspan1761">        ...</tspan><tspan
+         sodipodi:role="line"
+         x="-20.668856"
+         y="212.37532"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';stroke-width:0.29359969"
+         id="tspan1763">    sections:</tspan><tspan
+         sodipodi:role="line"
+         x="-20.668856"
+         y="220.32616"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.29359969"
+         id="tspan1765">      - ...</tspan><tspan
+         sodipodi:role="line"
+         x="-20.668856"
+         y="228.27701"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';stroke-width:0.29359969"
+         id="tspan1767">      keywords:</tspan><tspan
+         sodipodi:role="line"
+         x="-20.668856"
+         y="236.22784"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.29359969"
+         id="tspan1769">        - ...</tspan><tspan
+         sodipodi:role="line"
+         x="-20.668856"
+         y="244.1787"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';stroke-width:0.29359969"
+         id="tspan1771">      sections:</tspan><tspan
+         sodipodi:role="line"
+         x="-20.668856"
+         y="252.12953"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.29359969"
+         id="tspan1773">        - ...</tspan><tspan
+         sodipodi:role="line"
+         x="-20.668856"
+         y="259.95886"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.29359969"
+         id="tspan7087" /></text>
+    <ellipse
+       style="opacity:0.7;fill:#00ce1a;fill-opacity:0.42519687;stroke:none;stroke-width:0.29654181;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1914"
+       cx="-31.821131"
+       cy="147.48413"
+       rx="23.000711"
+       ry="16.837118"
+       transform="rotate(-12.232563)" />
+    <ellipse
+       style="opacity:0.7;fill:#ec4c3a;fill-opacity:0.42519687;stroke:none;stroke-width:0.38185874;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1914-6"
+       cx="77.65374"
+       cy="185.26852"
+       rx="30.249208"
+       ry="21.228952"
+       transform="matrix(0.95972223,0.2809506,-0.35844257,0.93355178,0,0)" />
+    <path
+       style="display:inline;opacity:0.7;fill:url(#linearGradient1976);fill-opacity:1;stroke:none;stroke-width:0.60168755;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       clip-path="none"
+       d="m 160.31493,87.781324 c 3.84148,3.034775 6.12458,6.848727 6.12458,11.001507 v 63.567179 c 0,9.94436 -13.08445,17.95013 -29.33723,17.95013 -16.25282,0 -29.33727,-8.00577 -29.33727,-17.95013 v -54.24666"
+       id="rect8492-3-2-7-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssssc" />
+    <path
+       style="display:inline;opacity:0.7;fill:url(#linearGradient1995);fill-opacity:1;stroke:none;stroke-width:0.56813657;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       clip-path="none"
+       d="m 165.38163,209.85047 c 4.05802,2.5614 6.46981,5.78041 6.46981,9.28539 v 53.65149 c 0,8.39315 -13.82198,15.1501 -30.99089,15.1501 -17.16891,0 -30.9909,-6.75695 -30.9909,-15.1501 v -45.78483"
+       id="rect8492-3-2-7-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssssc" />
+    <text
+       id="text1372-7-3"
+       y="99.556946"
+       x="139.86586"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87777805px;line-height:1.25;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       xml:space="preserve"
+       inkscape:export-filename="/home/bast/tmp/times.png"
+       inkscape:export-xdpi="300.0101"
+       inkscape:export-ydpi="300.0101"><tspan
+         id="tspan1370-5-6"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46666622px;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor Bold';text-align:center;text-anchor:middle;stroke-width:0.26458332;"
+         y="99.556946"
+         x="139.86586"
+         sodipodi:role="line">Keywords</tspan></text>
+    <text
+       id="text1372-7-3-0"
+       y="114.33474"
+       x="183.84477"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.089118px;line-height:1.25;font-family:Hack;-inkscape-font-specification:Hack;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.13631566"
+       xml:space="preserve"
+       inkscape:export-filename="/home/bast/tmp/times.png"
+       inkscape:export-xdpi="300.0101"
+       inkscape:export-ydpi="300.0101"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.36210108px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';text-align:start;text-anchor:start;stroke-width:0.13631566"
+         y="114.33474"
+         x="183.84477"
+         sodipodi:role="line"
+         id="tspan2035">name: <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.13631566"
+   id="tspan2080">lr_convergence</tspan></tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.36210108px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';text-align:start;text-anchor:start;stroke-width:0.13631566"
+         y="120.69614"
+         x="183.84477"
+         sodipodi:role="line"
+         id="tspan2041">type: <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.13631566"
+   id="tspan2082">float</tspan></tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.36210108px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';text-align:start;text-anchor:start;stroke-width:0.13631566"
+         y="127.05753"
+         x="183.84477"
+         sodipodi:role="line"
+         id="tspan2051">docstring: <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.13631566"
+   id="tspan2084">|</tspan></tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.36210108px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';text-align:start;text-anchor:start;stroke-width:0.13631566"
+         y="133.41895"
+         x="183.84477"
+         sodipodi:role="line"
+         id="tspan2047">  Convergence threshold</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.36210108px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';text-align:start;text-anchor:start;stroke-width:0.13631566"
+         y="139.78033"
+         x="183.84477"
+         sodipodi:role="line"
+         id="tspan2055">  for the response equations</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.36210108px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';text-align:start;text-anchor:start;stroke-width:0.13631566"
+         y="146.14174"
+         x="183.84477"
+         sodipodi:role="line"
+         id="tspan2043">default: <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.13631566"
+   id="tspan2086">&quot;10 * user['scf']['d_convergence']&quot;</tspan></tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.36210108px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';text-align:start;text-anchor:start;stroke-width:0.13631566"
+         y="152.50313"
+         x="183.84477"
+         sodipodi:role="line"
+         id="tspan2053">predicates: </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.36210108px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';text-align:start;text-anchor:start;stroke-width:0.13631566"
+         y="158.86453"
+         x="183.84477"
+         sodipodi:role="line"
+         id="tspan2059">  <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.13631566"
+   id="tspan2088">- &quot;value &lt;= 10 * user['scf']['d_convergence']&quot;</tspan></tspan></text>
+    <text
+       id="text1372-7-3-2"
+       y="220.19473"
+       x="145.51921"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87777805px;line-height:1.25;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       xml:space="preserve"
+       inkscape:export-filename="/home/bast/tmp/times.png"
+       inkscape:export-xdpi="300.0101"
+       inkscape:export-ydpi="300.0101"><tspan
+         id="tspan1370-5-6-6"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46666622px;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor Bold';text-align:center;text-anchor:middle;stroke-width:0.26458332;"
+         y="220.19473"
+         x="145.51921"
+         sodipodi:role="line">Sections</tspan></text>
+    <text
+       id="text1372-7-3-0-1"
+       y="120.11607"
+       x="113.57047"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87777805px;line-height:1.25;font-family:Hack;-inkscape-font-specification:Hack;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"
+       inkscape:export-filename="/home/bast/tmp/times.png"
+       inkscape:export-xdpi="300.0101"
+       inkscape:export-ydpi="300.0101"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46666622px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';text-align:start;text-anchor:start;stroke-width:0.26458332"
+         y="120.11607"
+         x="113.57047"
+         sodipodi:role="line"
+         id="tspan2035-8">name</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46666622px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';text-align:start;text-anchor:start;stroke-width:0.26458332"
+         y="132.46329"
+         x="113.57047"
+         sodipodi:role="line"
+         id="tspan2041-9">type</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46666622px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';text-align:start;text-anchor:start;stroke-width:0.26458332"
+         y="144.81052"
+         x="113.57047"
+         sodipodi:role="line"
+         id="tspan2055-7">docstring</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46666622px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';text-align:start;text-anchor:start;stroke-width:0.26458332"
+         y="157.15773"
+         x="113.57047"
+         sodipodi:role="line"
+         id="tspan2043-5">default</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46666622px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';text-align:start;text-anchor:start;stroke-width:0.26458332"
+         y="169.50496"
+         x="113.57047"
+         sodipodi:role="line"
+         id="tspan2059-2">predicates</tspan></text>
+    <text
+       id="text1372-7-3-0-1-0"
+       y="241.21826"
+       x="120.24155"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87777805px;line-height:1.25;font-family:Hack;-inkscape-font-specification:Hack;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"
+       inkscape:export-filename="/home/bast/tmp/times.png"
+       inkscape:export-xdpi="300.0101"
+       inkscape:export-ydpi="300.0101"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46666622px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';text-align:start;text-anchor:start;stroke-width:0.26458332"
+         y="241.21826"
+         x="120.24155"
+         sodipodi:role="line"
+         id="tspan2035-8-6">name</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46666622px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';text-align:start;text-anchor:start;stroke-width:0.26458332"
+         y="253.56549"
+         x="120.24155"
+         sodipodi:role="line"
+         id="tspan2055-7-8">docstring</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46666622px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';text-align:start;text-anchor:start;stroke-width:0.26458332"
+         y="265.91272"
+         x="120.24155"
+         sodipodi:role="line"
+         id="tspan2043-5-5">keywords</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46666622px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';text-align:start;text-anchor:start;stroke-width:0.26458332"
+         y="278.25992"
+         x="120.24155"
+         sodipodi:role="line"
+         id="tspan2059-2-3">sections</tspan></text>
+    <text
+       id="text1372-7-3-0-9"
+       y="210.03934"
+       x="206.02432"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.08911848px;line-height:1.25;font-family:Hack;-inkscape-font-specification:Hack;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.13631566"
+       xml:space="preserve"
+       inkscape:export-filename="/home/bast/tmp/times.png"
+       inkscape:export-xdpi="300.0101"
+       inkscape:export-ydpi="300.0101"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.36210108px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';text-align:start;text-anchor:start;stroke-width:0.13631566"
+         y="210.03934"
+         x="206.02432"
+         sodipodi:role="line"
+         id="tspan2041-5">name: response</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.36210108px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';text-align:start;text-anchor:start;stroke-width:0.13631566"
+         y="216.40074"
+         x="206.02432"
+         sodipodi:role="line"
+         id="tspan2051-1">docstring: <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.13631566"
+   id="tspan2084-5">|</tspan></tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.36210108px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';text-align:start;text-anchor:start;stroke-width:0.13631566"
+         y="222.76213"
+         x="206.02432"
+         sodipodi:role="line"
+         id="tspan2055-4">  Parameters for response calcualtions</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.36210108px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';text-align:start;text-anchor:start;stroke-width:0.13631566"
+         y="229.12354"
+         x="206.02432"
+         sodipodi:role="line"
+         id="tspan2043-9">keywords: </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.36210108px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';text-align:start;text-anchor:start;stroke-width:0.13631566"
+         y="235.48492"
+         x="206.02432"
+         sodipodi:role="line"
+         id="tspan2264">  - name:</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.36210108px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';text-align:start;text-anchor:start;stroke-width:0.13631566"
+         y="241.84633"
+         x="206.02432"
+         sodipodi:role="line"
+         id="tspan2268">    ...</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.36210108px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';text-align:start;text-anchor:start;stroke-width:0.13631566"
+         y="248.20773"
+         x="206.02432"
+         sodipodi:role="line"
+         id="tspan2270">    ...</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.36210108px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';text-align:start;text-anchor:start;stroke-width:0.13631566"
+         y="254.56912"
+         x="206.02432"
+         sodipodi:role="line"
+         id="tspan2272">sections:</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.36210108px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';text-align:start;text-anchor:start;stroke-width:0.13631566"
+         y="260.93054"
+         x="206.02432"
+         sodipodi:role="line"
+         id="tspan2274">  - name:</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.36210108px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';text-align:start;text-anchor:start;stroke-width:0.13631566"
+         y="267.29193"
+         x="206.02432"
+         sodipodi:role="line"
+         id="tspan2276">    ...</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.36210108px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';text-align:start;text-anchor:start;stroke-width:0.13631566"
+         y="273.65332"
+         x="206.02432"
+         sodipodi:role="line"
+         id="tspan2278">    ...</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.36210108px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';text-align:start;text-anchor:start;stroke-width:0.13631566"
+         y="280.01474"
+         x="206.02432"
+         sodipodi:role="line"
+         id="tspan2059-8" /></text>
+  </g>
+</svg>

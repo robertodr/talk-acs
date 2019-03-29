@@ -117,8 +117,39 @@ layout: false
 
 ---
 layout: false
+class: split-50-50
 
-## parselglossy
+## parselglossy: generic input parsing, speaking in tongues
+
+Separate _syntax_ and _semantics_
+
+.column[
+- [github.com/dev-cafe/parselglossy](https://github.com/dev-cafe/parselglossy)
+- [parselglossy.readthedocs.io](https://parselglossy.readthedocs.io)
+- `pip install parselglossy`
+]
+.column[
+<p style="text-align:center;"><img src="images/parseltongue.jpg" style="width: 35%;"/></p>
+<p style="clear: both;">
+]
+
+```
+parselglossy --help
+
+Usage: parselglossy [OPTIONS] COMMAND [ARGS]...
+
+  Console script for parselglossy.
+
+Options:
+  --version  Show the version and exit.
+  --help     Show this message and exit.
+
+Commands:
+  doc       Generate documentation from validation template.
+  lex       Run lexer and dump intermediate representation to JSON.
+  parse     Parse input file.
+  validate  Validate intermediate representation into final representation.
+```
 
 ---
 layout: false
@@ -131,12 +162,63 @@ layout: false
 ---
 layout: false
 
+## Tokenization: how _any_ correct input _looks_ 
+
+---
+layout: false
+
+## Validation: what correct input _must contain_
+
+<p style="text-align:center;"><img src="images/template.png" style="width: 100%;"/></p>
+<p style="clear: both;">
+
+---
+layout: false
+
+<p style="text-align:center;"><img src="images/validation.png" style="width: 100%;"/></p>
+<p style="clear: both;">
+
+---
+layout: false
+
+## Bonus: autogenerate documentation
+
+```
+parselglossy doc template.yml --outfile input.rst
+```
+
+<p style="text-align:right;"><img src="images/documentation.png" style="width: 60%;"/></p>
+<p style="clear: both;">
+
+---
+layout: false
+class: split-40-60
+
 ## Acknowledgements
 
-__Radovan Bast__ .cite[University of Tromsø]
-High Performance Computing Group, UiT The Arctic University of Norway, Tromsø, Norway
+.column[
+<p style="text-align:left;"><img src="images/radovan-bast.jpg" style="width: 80%"></p>
+<p style="clear: both;">
+]
+.column[
+__Radovan Bast__ .cite[UiT -- The Arctic University of Norway]
+]
 
-__Stig Rune Jensen__ .cite[Hylleraas Centre, University of Tromsø]
+.column[
+__Stig Rune Jensen__ .cite[Hylleraas Centre, UiT]
+]
+.column[
+<p style="text-align:left;"><img src="images/stig-rune-jensen.jpeg" style="width: 10%"></p>
+<p style="clear: both;">
+]
+
+.column[
+__Jonas Juselius__ .cite[]
+]
+.column[
+<p style="text-align:left;"><img src="images/jonas.jpg" style="width: 20%"></p>
+<p style="clear: both;">
+]
 
 <p style="text-align:center;"><img src="images/NFR-logo.png" style="width: 80%"></p>
 <p style="clear: both;">
@@ -146,7 +228,7 @@ layout: false
 
 ## Commercial
 
-All examples online [https://github.com/dev-cafe/cmake-cookbook](https://github.com/dev-cafe/cmake-cookbook)
+All examples online [github.com/dev-cafe/cmake-cookbook](https://github.com/dev-cafe/cmake-cookbook)
 
 <p style="text-align:center;"><img src="images/cmake-cookbook-cover.png" style="width: 50%"></p>
 <p style="clear: both;">

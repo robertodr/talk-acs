@@ -124,15 +124,6 @@ class: split-50-50
 Separate _syntax_ and _semantics_
 
 .column[
-- [github.com/dev-cafe/parselglossy](https://github.com/dev-cafe/parselglossy)
-- [parselglossy.readthedocs.io](https://parselglossy.readthedocs.io)
-- `pip install parselglossy`
-]
-.column[
-<p style="text-align:center;"><img src="images/parseltongue.jpg" style="width: 35%;"/></p>
-<p style="clear: both;">
-]
-
 ```
 parselglossy --help
 
@@ -150,6 +141,15 @@ Commands:
   parse     Parse input file.
   validate  Validate intermediate representation into final representation.
 ```
+]
+.column[
+<p style="text-align:center;"><img src="images/parseltongue.jpg" style="width: 35%;"/></p>
+<p style="clear: both;">
+]
+
+- [github.com/dev-cafe/parselglossy](https://github.com/dev-cafe/parselglossy)
+- [parselglossy.readthedocs.io](https://parselglossy.readthedocs.io)
+- `pip install parselglossy`
 
 ---
 layout: false
@@ -163,6 +163,9 @@ layout: false
 layout: false
 
 ## Tokenization: how _any_ correct input _looks_ 
+
+<p style="text-align:center;"><img src="images/tokenization.png" style="width: 100%;"/></p>
+<p style="clear: both;">
 
 ---
 layout: false
@@ -192,35 +195,15 @@ parselglossy doc template.yml --outfile input.rst
 
 ---
 layout: false
-class: split-40-60
+
+## Conclusions
+
+---
+layout: false
 
 ## Acknowledgements
 
-.column[
-<p style="text-align:left;"><img src="images/radovan-bast.jpg" style="width: 80%"></p>
-<p style="clear: both;">
-]
-.column[
-__Radovan Bast__ .cite[UiT -- The Arctic University of Norway]
-]
-
-.column[
-__Stig Rune Jensen__ .cite[Hylleraas Centre, UiT]
-]
-.column[
-<p style="text-align:left;"><img src="images/stig-rune-jensen.jpeg" style="width: 10%"></p>
-<p style="clear: both;">
-]
-
-.column[
-__Jonas Juselius__ .cite[]
-]
-.column[
-<p style="text-align:left;"><img src="images/jonas.jpg" style="width: 20%"></p>
-<p style="clear: both;">
-]
-
-<p style="text-align:center;"><img src="images/NFR-logo.png" style="width: 80%"></p>
+<p style="text-align:center;"><img src="images/thanks.png" style="width: 100%"></p>
 <p style="clear: both;">
 
 ---

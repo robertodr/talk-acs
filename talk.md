@@ -159,7 +159,9 @@ Commands:
 ---
 layout: false
 
-## parselglossy
+```
+parselglossy parse input.inp --template template.yml --outfile fr.json
+```
 
 <p style="text-align:center;"><img src="images/structure.png" style="width: 100%;"/></p>
 <p style="clear: both;">
